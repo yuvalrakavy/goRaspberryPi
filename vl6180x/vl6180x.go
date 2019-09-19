@@ -2,7 +2,7 @@ package vl6180x
 
 import (
 	"fmt"
-	"i2c"
+	"github.com/yuvalrakavy/goRaspberryPi/i2c"
 	"time"
 )
 

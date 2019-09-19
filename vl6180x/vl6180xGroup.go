@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yuvalrakavy/goRaspberrypi/i2c"
+	"github.com/yuvalrakavy/goRaspberryPi/i2c"
 
 	"github.com/yuvalrakavy/goPool"
 )
