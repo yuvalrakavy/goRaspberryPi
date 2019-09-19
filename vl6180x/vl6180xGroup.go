@@ -2,9 +2,11 @@ package vl6180x
 
 import (
 	"fmt"
-	"goPool"
-	"i2c"
 	"time"
+
+	"github.com/yuvalrakavy/goRaspberrypi/i2c"
+
+	"github.com/yuvalrakavy/goPool"
 )
 
 type Vl6180xGroup []Vl6180x
