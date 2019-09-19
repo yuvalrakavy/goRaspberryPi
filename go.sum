@@ -1,0 +1,4 @@
+github.com/yuvalrakavy/goPool v0.0.0-20190919112624-ae1bf5dbbdda h1:4Go8LLBn8bnMdM/HFKjF4mzd4gmBIMGMW4QbpPgd9sM=
+github.com/yuvalrakavy/goPool v0.0.0-20190919112624-ae1bf5dbbdda/go.mod h1:DdaPhGp263uL4cK0HXxoTstbB+iKlPw3pTSgsp5gTmA=
+golang.org/x/sys v0.0.0-20190919044723-0c1ff786ef13 h1:/zi0zzlPHWXYXrO1LjNRByFu8sdGgCkj2JLDdBIB84k=
+golang.org/x/sys v0.0.0-20190919044723-0c1ff786ef13/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=

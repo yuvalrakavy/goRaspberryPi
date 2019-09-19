@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yuvalrakavy/goRaspberryPi/i2c"
-
 	"github.com/yuvalrakavy/goPool"
+	"github.com/yuvalrakavy/goRaspberryPi/i2c"
 )
 
 type Vl6180xGroup []Vl6180x
