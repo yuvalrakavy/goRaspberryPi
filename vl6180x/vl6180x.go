@@ -2,8 +2,9 @@ package vl6180x
 
 import (
 	"fmt"
-	"github.com/yuvalrakavy/goRaspberryPi/i2c"
 	"time"
+
+	"github.com/yuvalrakavy/goRaspberryPi/i2c"
 )
 
 // VL6180 control registers
@@ -542,4 +543,11 @@ func (device Vl6180x) ReadAmbientContinous(timeout int) (uint16, error) {
 			return 0xff, Timeout{i2c.I2CdeviceError{Address: device.Address, Description: "ReadAmbient timeout"}}
 		}
 	}
+}
+
+func (device Vl6180x) SetGPIO1low() {
+	device.WriteByteRegister(registerSystemModeGpio1, 0b00110000)
+}
+func (device Vl6180x) SetGPIO1high() {
+	device.WriteByteRegister(registerSystemModeGpio1, 0b00000000)
 }
